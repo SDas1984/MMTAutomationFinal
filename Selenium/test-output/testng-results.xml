@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="167" started-at="2019-01-07T11:44:13Z" finished-at="2019-01-07T11:44:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="167" started-at="2019-01-07T11:44:13Z" finished-at="2019-01-07T11:44:13Z">
+      <class name="com.MMT.Utility.Driver">
+        <test-method status="PASS" signature="TestDriver()[pri:0, instance:com.MMT.Utility.Driver@ae45eb6]" name="TestDriver" duration-ms="133" started-at="2019-01-07T11:44:13Z" finished-at="2019-01-07T11:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDriver -->
+      </class> <!-- com.MMT.Utility.Driver -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

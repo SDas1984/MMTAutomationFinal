@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]">
+  <test thread-count="5" name="NewReservation1(failed)">
+    <classes>
+      <class name="com.EOC.NewReservation.NewReservation">
+        <methods>
+          <include name="cleanup"/>
+          <include name="NewReservation1"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.EOC.NewReservation.NewReservation -->
+    </classes>
+  </test> <!-- NewReservation1(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
