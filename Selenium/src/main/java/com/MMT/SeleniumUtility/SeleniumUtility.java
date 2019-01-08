@@ -44,7 +44,7 @@ public class SeleniumUtility extends com.MMT.Utility.Driver {
 			}
 			report.endTest(test);
 			report.flush();
-			throw new AssertionError("A clear description of the failure", Ex);
+			throw new AssertionError("A clear description of failure", Ex);
 		}
 	}
 	
