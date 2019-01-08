@@ -111,7 +111,7 @@ public class SeleniumUtility extends com.MMT.Utility.Driver {
 			System.out.println(Ex.getMessage().toString());
 			try {
 				String screenShotPath = capture(driver);
-				test.log(LogStatus.FAIL,"Failed to click on element "+nameofelement+test.addScreenCapture(screenShotPath));
+				test.log(LogStatus.FAIL,"Failed to click element "+nameofelement+test.addScreenCapture(screenShotPath));
 			} catch (IOException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();

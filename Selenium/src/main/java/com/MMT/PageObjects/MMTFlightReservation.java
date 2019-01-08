@@ -114,9 +114,9 @@ public class MMTFlightReservation {
 			SeleniumUtility.DatePicker(driver,strReturndatetext,test,"Returndate");
 			SeleniumUtility.ForceClick(driver, btnSearch, "SearchFlightButton",test);
 		}
-		catch(Exception E)
+		catch(Exception Ex)
 		{
-			System.out.println(E.getMessage().toString());
+			System.out.println(Ex.getMessage().toString());
 		}
 		
 	}
